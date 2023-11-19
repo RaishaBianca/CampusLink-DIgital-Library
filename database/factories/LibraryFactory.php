@@ -30,7 +30,7 @@ class LibraryFactory extends Factory
             'author' => $this->faker->name(),
             'publisher' => $this->faker->company(),
             'description' => $this->faker->paragraph(5),
-            'category' => $this->faker->word(),
+            'category' => $this->faker->randomElement(['conference', 'reference', 'academic']),
             'isbn' => $this->faker->isbn13(),
             'image' => $image,
         ];
