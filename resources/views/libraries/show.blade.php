@@ -14,13 +14,13 @@
         </div>
         <div id="right-content" class="w-1/2 flex flex-col space-y-4 pb-4">
             <h1 class="font-bold text-3xl">{{$library->title}}</h1>
-            <div id="buttons" class="flex w-full space-x-8">
+            {{-- <div id="buttons" class="flex w-full space-x-8">
                 <form method="POST" action="/libraries/{{$library->id}}/list">
                     @csrf
                     <button type="submit" class="px-4 py-4 bg-white text-darkRed rounded-md hover:bg-gray-200">Add to list</button>
                 </form>                
                 <a href="" class="h-fit px-4 py-4 text-white bg-darkRed rounded-md hover:bg-Red">Borrow</a>
-            </div>
+            </div> --}}
             <p>{{$library->description}}</p>
             <hr class="border-t-2 border-gray-400 w-full">
             <table class="border-separate border-spacing-y-4">

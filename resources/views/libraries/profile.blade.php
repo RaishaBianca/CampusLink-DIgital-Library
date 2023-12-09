@@ -37,8 +37,4 @@
         </table>
     </div>
 
-    <div id="lists">
-        <h1 class="font-bold text-xl container">My lists</h1>
-        
-    </div>
 </x-layout>
