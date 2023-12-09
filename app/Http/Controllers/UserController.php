@@ -55,7 +55,6 @@ class UserController extends Controller
     //authenticate user
     public function authenticate(Request $request)
     {
-        dd($request->all());
         //validate the form data
         $formFields= $request->validate([
             'email' => 'required|email',
